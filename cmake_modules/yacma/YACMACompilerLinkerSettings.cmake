@@ -33,7 +33,7 @@ endif()
 if(APPLE)
     message(STATUS "OSX detected, setting the 'CMAKE_MACOSX_RPATH' option to TRUE.")
     set(CMAKE_MACOSX_RPATH TRUE)
-endif()
+endif() 
 
 # Helper function to print out the autodetected flags.
 function(_YACMA_REPORT_FLAGS)
